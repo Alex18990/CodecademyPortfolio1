@@ -1,0 +1,83 @@
+nav{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar li{
+    color: black;
+    font-size: 1.5rem;
+}
+#navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: orange;
+}
+.intro{
+    background-image: url("tim-mossholder-uicdmDWW9RQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    max-width: 50%;
+    padding: 10%;
+}
+#about{
+    display: flex;
+    gap: 0;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-size: 1.15rem;
+}
+.text p{
+    max-width: 55%;
+    text-indent: 5%;
+    padding-right: 5%;
+}
+.text h1{
+    color: black;
+}
+footer{
+    background-color: white;
+    color: black;
+    display: flex;
+    padding-left:3%;
+    padding-top: 3%;
+    position: relative;
+}
+footer section{
+    padding-right: 33%;
+    font-size: 1.2rem;
+}
+.media{
+    display: flex;
+    align-items: center;
+}
+.media2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    outline: 1px solid rgb(212, 170, 92);
+}

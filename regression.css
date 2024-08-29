@@ -1,0 +1,77 @@
+nav{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar li{
+    color: rgb(30, 75, 117);
+    font-size: 1.5rem;
+}
+#navbar a{
+    color: rgb(30, 75, 117);
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: orange;
+}
+#image{
+    padding-top: 10%;
+    background-image: url("jason-mavrommatis-ap3LXI0fPJY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: rgb(30, 75, 117);
+    font-size: 1.25rem;
+    padding-bottom: 5%;
+}
+.text h2{
+    color: rgb(30, 75, 117);
+}
+.text p{
+    width: 60%;
+    text-indent: 3%;
+}
+footer{
+    background-color: white;
+    color: darkcyan;
+    display: flex;
+    padding-left:3%;
+    padding-top: 3%;
+    position: relative;
+}
+footer section{
+    padding-right: 33%;
+    font-size: 1.5rem;
+}
+.media{
+    display: flex;
+    align-items: center;
+}
+.media2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    color: darkcyan;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    outline: 1px solid rgb(212, 170, 92);
+}
